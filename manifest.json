@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Disable Reddit Autotranslate",
+    "version": "1.0",
+    "description": "A Firefox Add on that disables reddit automatically translating when you visit Reddit from a Search enginr",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://www.reddit.com/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+
